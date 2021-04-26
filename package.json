@@ -1,0 +1,28 @@
+{
+  "name": "genie-atomic-helper",
+  "version": "1.0.0",
+  "description": "helper tool to work with atomic design UX development",
+  "main": "index.js",
+  "repository": "https://github.com/Dev-Onus/genie-atomic-helper.git",
+  "author": "Yogesh Surendran <carreraphp@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commit": "git-cz",
+    "generate": "node ./index.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "git-cz": "^4.7.6"
+  },
+  "dependencies": {
+    "clui": "^0.3.6",
+    "open": "^8.0.6",
+    "vorpal": "^1.12.0"
+  }
+}
